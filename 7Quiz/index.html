@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-------------TOP SECTION-------------------->
+    <div class="intro py-3  bg-secondary text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+                QUIZ
+            </h2>
+        </div>
+    </div>
+
+    <!-------------RESULT SECTION-------------------->
+    <div class="result py-4 d-none bg-light text-center">
+            <div class="container lead">
+                <p>You are <span class="text-primary display-4 p-3">
+                    0%
+                </span> Rating</p>
+            </div>
+        </div>
+    <!-------------QUIZ QUESTION-------------------->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the question.....</h2>
+            <form action="" class="quiz-form">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1.How do yo give a ninja directions?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="form-check-label">Show them a map</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B" checked>
+                        <label for="form-check-label">Don't worry,I find you</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2.Inside which HTML element do we put the JavaScript?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="form-check-label">script</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B" checked>
+                        <label for="form-check-label">javascript</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3.What is the correct JavaScript syntax to change the content of the HTML element has id="demo"?
+                        
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="form-check-label">document.getElementById("demo").innnerHtml="Hello World"</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" checked>
+                        <label for="form-check-label">document.getElemrnt("demo").innerHTml="Hello World"</label>
+                    </div>
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4.Where is the correct place to insert a JavaScript?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="form-check-label">Body</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" checked>
+                        <label for="form-check-label">Title</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        5.What is the correct syntax for referring to an external script called "xxx.js"?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="form-check-label">src="xxxx"</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" checked>
+                        <label for="form-check-label">href="xxxx"</label>
+                    </div>
+                </div>
+                <button type="submit" class="brn btn-white">ANSWER</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
